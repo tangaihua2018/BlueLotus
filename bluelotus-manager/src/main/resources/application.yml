@@ -1,0 +1,17 @@
+spring:
+  thymeleaf:
+    cache: false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.90.31:3306/sell?characterEncoding=utf-8&userSSL=false
+server:
+  port: 8081
+  servlet:
+    context-path: /
