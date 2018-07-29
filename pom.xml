@@ -18,6 +18,7 @@
 
     <modules>
         <module>bluelotus-manager</module>
+        <module>commons</module>
     </modules>
 
     <build>
